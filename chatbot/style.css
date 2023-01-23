@@ -5,6 +5,11 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+h1 {text-align: center;}
+    p {text-align: center;}
+    body {
+background-color:beige;
+}
 .body{
   background-color:red;
 }
