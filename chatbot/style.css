@@ -14,7 +14,7 @@ background-color:beige;
   background-color:red;
 }
 .container {
-  --light-color: purple;
+  --light-color:;
   height: 420px;
   width: 350px;
   background: var(--light-color);
@@ -28,7 +28,7 @@ background-color:beige;
   display: flex;
   align-items: center;
   padding: 0px -1px;
-  background-color:hotpink;
+  background-color:lightblue;
   color: var(--light-color);
   font-size: large;
 }
@@ -56,12 +56,13 @@ background-color:beige;
   padding: 8px 10px;
   align-items: flex-end;
   overflow-y: auto;
+  background-color: white;
 }
 .chat-input {
   height: 60px;
   display: flex;
   align-items: center;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid white;
 }
 .input-sec {
   flex: 9;
@@ -83,13 +84,13 @@ background-color:beige;
 .chatbot-message,
 .user-message {
   padding: 8px;
-  background: beige;
+  background: grey;
   margin: 5px;
   width: max-content;
   border-radius: 10px 3px 10px 10px;
 }
 .chatbot-message {
-  background: hotpink;
+  background: beige;
   color: var(--light-color);
   align-self: flex-start;
   border-radius: 10px 10px 3px 10px;
